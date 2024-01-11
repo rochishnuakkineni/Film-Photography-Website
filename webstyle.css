@@ -1,0 +1,84 @@
+
+      	body {background-color: rgb(28, 40, 51);}
+      	
+      	title {font-family: Helvetica; "font-size: 150"} 
+      	
+      	h1 {text-align: center; color: rgb(214, 219, 223); font-family: Helvetica; "font-size: 150"}
+        h2 {text-align: center; color: rgb(214, 219, 223); font-family: Helvetica;}
+        h3 {text-align: center; color: rgb(214, 219, 223); font-family: Helvetica;}
+        h4 {text-align: center; color: rgb(214, 219, 223); font-family: Helvetica;}
+        
+        p {font-family: Helvetica; color: rgb(214, 219, 223); "font-size: 20"}
+        p2 {font-family: Helvetica; color: rgb(28, 40, 51); "font-size: 18"}
+      	
+      	{box:border-box}
+      	
+      	.rows {display: flex;padding-left: 125px; padding-right: 31px; width: 75%}
+      	.columns {flex:40%; padding: 20px}
+      	
+      	ul {
+      		list-style-type: none;
+      		margin: 0;
+      		padding: 0;
+      		
+      		font-family: Helvetica; 
+      		"font-size: 20";
+      	}
+      	
+      	
+      	
+      	li a {
+      		display: block;
+      		padding: 15px;
+      		text-align: left
+      	}
+      	
+      	
+      	li a:hover {
+      		color: orange;
+      	}
+      	
+      	
+      	li {
+      		display: inline-block;
+      	}
+      	
+      	li2 {
+      		font-family: Helvetica; color: rgb(214, 219, 223); "font-size: 50";
+      		display: inline-block;
+      	}
+      	
+      	
+      	a {
+      		color: LightSkyBlue; 
+      	}
+      	
+      	div {
+      	    font-family: Helvetica; color: rgb(214, 219, 223); "font-size: 30";
+			line-height:1.5;
+			width: 75%;
+			border: 20%;
+			padding:1%;
+		}
+		
+		
+		
+		.container {
+			width: 80%;
+			padding-left: 125px;
+			padding-right: 31px
+		}
+		
+		
+		ol {
+			color: rgb(214, 219, 223); 
+			font-family: Helvetica
+		}
+		
+		
+		footer {
+			padding: 11px 21px;
+			width: 100%;
+			background-color: LightSkyBlue; 
+			text-align: center;
+		}
